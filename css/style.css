@@ -1,0 +1,544 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    font-family: "Poppins", sans-serif;
+    position: fixed;
+    top:0;
+    right: 0;
+    z-index: 100;
+    background-color:#72F5E9;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.container_header{
+    max-width: 1100px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 0px 20px;
+}
+
+header .logo{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 90px;
+}
+
+.container_nav{
+    position: relative;
+    height: 100%;
+}
+
+nav{
+    height: 100%;
+}
+
+nav ul{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li{
+    margin: 0px 20px;
+    list-style: none;
+    font-weight: 300;
+}
+nav ul li a{
+    font-size: 14px;
+    color:black;
+    font-weight: 500;
+    transition: 0.3ms;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color:whitesmoke;
+}
+
+.nav_mod{
+    height: 70px;
+    box-shadow: 1px 1px 10px 0px; 
+    background-color: white;
+
+}
+.container__total1{
+    width: 100%;
+    padding-bottom: 60px;
+    font-family: "Poppins", sans-serif;
+    margin-top: 150px;
+    
+}
+
+.container__total2{
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.container__total1 .container_info{
+    max-width: 400px;
+    margin-top: 40px;
+    z-index: 2;
+    
+
+
+}
+.container__total1 h1{
+    max-width: 400px;
+    font-size: 60px;
+    font-weight: 900;
+    color: black;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.container__total1 h2{
+    font-size: 60px;
+    font-weight: 900;
+    color:aquamarine;
+    font-family: "Poppins", sans-serif;
+    margin-top: -30px;
+
+}
+
+.container__total1 p{
+    margin-top: 10px;
+    color: black;
+    font-weight: 400;
+}
+
+.container__img{
+   position: relative; 
+
+}
+
+.container__img img{
+    position: absolute;
+    bottom: 10px;
+    right: 0px;
+    width: 300px;
+}
+   
+.containercards{
+    padding: 20px;
+    padding-bottom: 40px;
+    margin: auto;
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #fff27eb9;
+    border-radius: 20px;
+ }
+    
+ .containercards h3{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 10px;
+    color: black;
+    font-family: "Poppins", sans-serif;
+ }
+
+ .containercards a{
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    
+ }
+
+.cartasimg img {
+    width: 200px;
+    border-radius: 100px;
+    margin: 10px;
+    
+
+    }
+  .cartasofertas{
+        display: flex;
+        justify-content: space-between;
+        margin:30px;
+        font-family: "Poppins", sans-serif;   
+        cursor: pointer;
+    }
+    
+  .tituloofertas h2{
+        font-size: 35px;
+        font-weight:400;
+        color: black;
+        font-family: "Poppins", sans-serif;
+        text-align: center;
+        margin-top: 20px;
+
+    }
+
+.card .card-body h5{
+    color:#011816 ;
+    text-align: center;
+}
+
+.card-body p{
+text-align:center;
+}
+
+.card .card-body a{
+    margin-right: 20px;
+}
+
+.menuproductos{
+    margin-top: 100px;
+}
+
+.menuproductos h1{
+    font-size: 40px;
+    font-weight: 900;
+    font-family: "Poppins", sans-serif;
+    color: black;
+    text-align: center;
+
+    }
+
+.menuproductos h2{
+    font-size: 30px;
+    font-weight: 220;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.menuproductos p{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 100;
+    font-family: "Poppins", sans-serif;
+
+    }
+
+.containercards2{
+    width: 50%;
+    padding: 20px;
+    padding-bottom: 40px;
+    margin: auto;
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+ } 
+
+
+ .containercards2 a{
+display: inline-block;
+ }
+    
+ .cartasimg2 i {
+    width: 200px;
+    border-radius: 100px;
+    margin: 10px;
+    align-items: center;
+    
+    }
+
+
+.containercards2 .cartasimg2 h3 {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 10px;
+    color: black;
+    font-family: "Poppins", sans-serif;
+ }
+
+ .containercards2 a{
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    
+ }
+
+
+.descuentos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    margin:50px
+
+}
+
+.descuentos h2{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.menusucursales{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    
+}
+
+.menutiendas h1{
+    font-size: 40px;
+    font-weight: 900;
+    font-family: "Poppins", sans-serif;
+    color: black;
+    text-align: center;
+}
+
+.titulo-tiendas h2{
+    font-size: 30px;
+    font-weight: 220;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+
+
+}
+.menutiendas{
+    margin-top: 100px;
+}
+.menutiendas .horario-tiendas p {
+   font-size: 30px;
+   font-weight: 200;
+    text-align: center;
+
+}
+
+
+
+.formularioImagen{
+    width: 100%;
+    padding-bottom: 60px;
+    font-family: "Poppins", sans-serif;
+    margin-top: 150px;  
+    }
+ 
+.containerFormimg{
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.formularioContacto{
+    width: 400px;
+    margin-left: 50px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    z-index: 2;
+    
+}
+
+.formularioContacto h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.formularioContacto label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+
+  input[type="submit"] {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
+.imagenQr{
+    position: relative;
+}
+
+.imagenQr img{
+    position: absolute;
+    bottom: 100px;
+    right: 0px;
+    width: 400px;
+    border-radius: 40px;
+}
+
+.contactoTitulo h1{
+    margin-top: 100px;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    color: black;
+}
+
+.contactoTitulo h2{
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    color: aquamarine;
+}
+
+.imagenQr .tituloApp{
+    color:black;
+    margin-right: 28px;
+    
+}
+
+
+span{
+    font-family: "Original Surfer", sans-serif;
+    color: rgb(199, 2, 2);
+}
+
+
+footer{
+    width: 100%;
+    padding: 60px 0px;
+    background-image: url(../assets/img/footer-background.png);
+    background-size: cover;
+    
+    
+}
+
+.containerFooter{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin:auto;
+}
+
+.boxFooter{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+
+}
+
+.logo img {
+width: 70px;
+}
+
+.boxFooter .textos{
+    max-width: 355px;
+    margin-top: 22px;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+
+.boxFooter h2{
+    margin-bottom: 30px;
+    font-weight: 700;
+    color:black;
+
+}
+
+.boxFooter a{
+    margin-top:10px;
+    font-weight: 600;
+    text-decoration: none;
+    color:#023629;
+}
+
+.boxFooter a:hover{
+    color:whitesmoke
+}
+
+a
+.boxFooter a .fa{
+    font-size: 20px;
+
+}
+
+footer .newslatter{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0 40px;
+}
+
+footer .newslatter h3{
+    font-weight: 600;
+    color: #0c0b0b;
+    margin: auto;
+}
+footer .formulario{
+      font-family: "Holtwood One SC", serif;
+        color: black;
+        margin-top: 20px;
+        text-align: center;
+        padding: 20px 40px;
+       
+}
+
+footer .formulario .newslatterBoton{
+    width: 20%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+.botonNewslatter{
+    width: 5%;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.derechosAutor{
+    font-weight: 400;
+    color:black;
+    margin:30px;
+    text-align: center;
+}
+
+.derechosAutor p{
+    margin-top: 10px;
+}
+
+
